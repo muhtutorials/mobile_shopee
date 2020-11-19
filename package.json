@@ -1,0 +1,16 @@
+{
+  "name": "mobile_shopee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "html_templates/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --port=8000",
+    "sass": "html_templates/sass ./sass/styles.scss html_templates/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.29.0"
+  }
+}
